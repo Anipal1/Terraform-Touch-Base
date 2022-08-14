@@ -1,0 +1,7 @@
+FROM ubuntu 16.04.6
+COPY https://techdirectarchive.com/2021/09/12/how-to-pull-your-first-nginx-container-image-from-docker-hub-and-deploy-it-to-your-local-machine/
+RUN  apt ubdate
+RUN  mkdir anike lucy james
+RUN apt install helm-y
+ENV paul=lucyAnike
+VOLUME /volume
